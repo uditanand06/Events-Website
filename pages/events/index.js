@@ -2,7 +2,7 @@ import EventItem from "../../components/eventitem"
 import Layout from "../../components/layout"
 import {API_URL} from '../../config/index'
 import Link from 'next/link'
-const PER_PAGE = 2
+const PER_PAGE = 3
 
 
 const EventsPage = ({events,total,page}) => {
